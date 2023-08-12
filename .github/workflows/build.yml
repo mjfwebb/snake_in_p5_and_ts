@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run build
-        run: npm run build
+        run: npm run build -- --public-url './'
     # - name: Setup Pages
     #   uses: actions/configure-pages@v1
       - name: Upload artifact
